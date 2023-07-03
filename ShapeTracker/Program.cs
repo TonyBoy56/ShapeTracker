@@ -1,7 +1,15 @@
-class Program
+using System;
+using System.Collections.Generic;
+using ShapeTracker.Models;
+
+namespace ShapeTracker
 {
-    static void Main()
+    class Program
     {
-        // UI code here
+        static void Main()
+        {
+            Triangle testTriangle = new Triangle();
+            Console.WriteLine(testTriangle.GetType());
+        }
     }
 }
